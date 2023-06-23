@@ -7,11 +7,31 @@
       --building-color2: #66cc99;
       --building-color3: #cc6699;
       --building-color4: #538cc6;
-      --window-color1: #bb99ff;
-      --window-color2: #8cd9b3;
-      --window-color4: #8cb3d9;
+      --window-color1: #777;
+      --window-color2: #777;
+      --window-color3: #777;
+
+      --window-color4: #777;
 
     }
+
+    @media (max-width: 1000px) {
+      :root {
+        --building-color1: #000;
+  --building-color2: #000;
+  --building-color3: #000;
+  --building-color4: #000;
+      }
+      .sky {
+        background: radial-gradient(
+          circle closest-corner at 15% 15%,
+          #ccc 0%,
+          #ccc 20%,
+          #445 21%,
+          #223 100%
+        )
+      }
+    }  
 
 body {
     overflow: hidden;
@@ -289,13 +309,14 @@ body {
 
     .sky {
       background: radial-gradient(
+        circle closest-corner at 15% 15%,
         #ffcf33 0%,
         #ffcf33 20%,
         #ffff66 21%,
         #bbeeff 100%
       )
     }
-    
+
 
 
 
