@@ -1,5 +1,4 @@
 * {
-    border: 1px solid black;
     box-sizing: border-box;
 }
 
@@ -287,6 +286,16 @@ body {
       border-top: 5vh solid transparent;
       border-left: 8vw solid var(--building-color1);
     }
+
+    .sky {
+      background: radial-gradient(
+        #ffcf33 0%,
+        #ffcf33 20%,
+        #ffff66 21%,
+        #bbeeff 100%
+      )
+    }
+    
 
 
 
